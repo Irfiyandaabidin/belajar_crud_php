@@ -8,6 +8,7 @@
 <body>
     <h1>Data Mahasiswa</h1>
     <a href="tambah.php">Tambah Data</a>
+    <a href="anggota.php">Print</a>
     <?php
     include 'koneksi.php';
     $mahasiswa = mysqli_query($koneksi, "SELECT * FROM mahasiswa");
